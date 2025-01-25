@@ -2,7 +2,7 @@ const express = require("express");
 const http = require("http");
 const cors = require("cors");
 const { error } = require("console");
-const { doSomeHeavyTask, simulateCPULoad } = require('./utils');
+const { doSomeHeavyTask, simulateCPULoad } = require('./src/utils');
 const client = require("prom-client");
 
 
